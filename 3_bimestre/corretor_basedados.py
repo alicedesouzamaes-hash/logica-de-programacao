@@ -11,7 +11,7 @@ dados_limpos = []
 
 for item in brutos:
     texto = item.strip()
-    if "@" in texto
+    if "@" in texto :
         texto = texto.lower()
     else:
         texto = texto.replace("No", "Número")
